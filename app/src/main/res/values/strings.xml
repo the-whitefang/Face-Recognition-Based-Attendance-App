@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FACE_RECOGNITION_BASED_ATTENDANCE_APP</string>
+    <string name="please_enter_your_credentials_to_sign_in">Please enter your credentials to Sign In your account</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_up">sign up</string>
+    <string name="please_enter_your_credentials_to_sign_up_your_account">Please enter your credentials to Sign up your account</string>
+    <string name="todo">TODO</string>
+    <string name="user_name">Enter User name</string>
+    <string name="sign_up_btn">Sign Up</string>
+    <string name="passwors">Password</string>
+    <string name="Sign_in">Sign In</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_user_name_hint">Enter User name</string>
+</resources>

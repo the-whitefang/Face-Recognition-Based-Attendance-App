@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "447480154958",
+    "project_id": "face-recognition-attenda-1f093",
+    "storage_bucket": "face-recognition-attenda-1f093.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447480154958:android:e7ae82e72b7d84687a2c1f",
+        "android_client_info": {
+          "package_name": "com.example.face_recognition_based_attendance_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447480154958-fjl0vvku7mmdelto0g5putd3iug6me65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.face_recognition_based_attendance_app",
+            "certificate_hash": "a1153a37b6262336fbe7b9f9473fb5cb1cc73c82"
+          }
+        },
+        {
+          "client_id": "447480154958-hd28f0lrigqjkcappt47eqpguu87ondb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqVdNZO5U6ddIJVftgJL_gBtjkHpY1Eo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447480154958-hd28f0lrigqjkcappt47eqpguu87ondb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
