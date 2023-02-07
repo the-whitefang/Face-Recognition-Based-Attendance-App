@@ -14,4 +14,5 @@
     <string name="Sign_in">Sign In</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="enter_user_name_hint">Enter User name</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
 </resources>

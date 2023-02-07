@@ -43,6 +43,11 @@ class ActivitySignup : AppCompatActivity() {
             }
         }
 
+        binding.tag2.setOnClickListener {
+            val intent = Intent(this,ActivityLogin::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }

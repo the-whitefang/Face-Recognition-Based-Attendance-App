@@ -70,7 +70,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.2"
-        app:srcCompat="@drawable/virtual_face" />
+        app:srcCompat="@drawable/virtual_face"
+        android:contentDescription="TODO" />
 
     <Button
         android:id="@+id/sibtn"
@@ -85,6 +86,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/siuserpassword"
         app:layout_constraintVertical_bias="0.369" />
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an Account  Sign Up"
+        android:textColor="#E7EDED"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sibtn" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

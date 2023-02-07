@@ -30,9 +30,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/supgimg"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintVertical_bias="0.098" />
 
     <EditText
         android:id="@+id/suusername"
@@ -49,7 +50,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/supg"
-        app:layout_constraintVertical_bias="0.255" />
+        app:layout_constraintVertical_bias="0.118" />
 
     <EditText
         android:id="@+id/supassword"
@@ -80,7 +81,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/supassword"
-        app:layout_constraintVertical_bias="0.686" />
+        app:layout_constraintVertical_bias="0.546" />
 
     <EditText
         android:id="@+id/suconfirmpwd"
@@ -96,5 +97,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/supassword" />
+
+    <TextView
+        android:id="@+id/tag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account_sign_in"
+        android:textColor="#F4F1F1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
