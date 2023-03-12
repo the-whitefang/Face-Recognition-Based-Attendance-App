@@ -16,4 +16,6 @@
     <string name="enter_user_name_hint">Enter User name/Mail-id</string>
     <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
     <string name="mail">Enter your mail-id</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>
