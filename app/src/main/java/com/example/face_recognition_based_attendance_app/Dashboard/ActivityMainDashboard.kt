@@ -1,8 +1,13 @@
 package com.example.face_recognition_based_attendance_app.Dashboard
 
+import android.content.Intent
+import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.MediaStore
 import android.view.MenuItem
+import android.view.View
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.databinding.DataBindingUtil
@@ -14,6 +19,7 @@ import com.google.android.material.navigation.NavigationView
 class ActivityMainDashboard : AppCompatActivity() {
     private lateinit var binding: ActivityMainDashboardBinding
     lateinit var toggle: ActionBarDrawerToggle
+    private var our_request_code:Int = 123
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main_dashboard)
@@ -39,7 +45,20 @@ class ActivityMainDashboard : AppCompatActivity() {
             }
             true
         }
+
+        binding.btnScan.setOnClickListener {
+            Toast.makeText(this,"Scanned Successfully !!",Toast.LENGTH_SHORT).show()
+        }
+
+
+
     }
+
+
+
+
+
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 

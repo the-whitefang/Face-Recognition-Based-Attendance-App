@@ -18,4 +18,9 @@
     <string name="mail">Enter your mail-id</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="scan">Scan</string>
+    <string name="total">Total Students:</string>
+    <string name="_64">64</string>
+    <string name="students_present">0</string>
+    <string name="students_Present">Students Present :</string>
 </resources>
