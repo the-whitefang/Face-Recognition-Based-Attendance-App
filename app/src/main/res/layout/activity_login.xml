@@ -24,8 +24,8 @@
 
     <EditText
         android:id="@+id/siusername"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="257dp"
+        android:layout_height="58dp"
         android:autofillHints=""
         android:ems="10"
         android:gravity="center_horizontal"

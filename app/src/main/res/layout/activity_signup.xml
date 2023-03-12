@@ -9,15 +9,15 @@
 
     <ImageView
         android:id="@+id/supgimg"
-        android:layout_width="201dp"
-        android:layout_height="148dp"
+        android:layout_width="132dp"
+        android:layout_height="110dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.027"
-        app:srcCompat="@drawable/virtual_face"
-        android:contentDescription="@string/todo" />
+        app:srcCompat="@drawable/virtual_face" />
 
     <TextView
         android:id="@+id/supg"
@@ -66,8 +66,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/suusername"
-        app:layout_constraintVertical_bias="0.128" />
+        app:layout_constraintTop_toBottomOf="@+id/sumail"
+        app:layout_constraintVertical_bias="0.104" />
 
     <Button
         android:id="@+id/subtn"
@@ -110,5 +110,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subtn" />
+
+    <EditText
+        android:id="@+id/sumail"
+        android:layout_width="234dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/mail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#A19C9C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suusername"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

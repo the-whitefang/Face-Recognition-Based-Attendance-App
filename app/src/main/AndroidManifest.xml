@@ -28,14 +28,17 @@
             android:exported="true" />
         <activity
             android:name=".Login_Signup.ActivityLogin"
+            android:windowSoftInputMode="adjustResize"
             android:exported="true" />
 
         <activity
             android:name=".Login_Signup.ActivitySignup"
+            android:windowSoftInputMode="adjustResize"
             android:exported="true" />
 
         <activity
             android:name=".Dashboard.ActivityMainDashboard"
+            android:windowSoftInputMode="adjustResize"
             android:exported="true"/>
 
         <meta-data
