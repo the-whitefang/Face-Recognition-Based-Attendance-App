@@ -12,8 +12,8 @@
        android:id="@+id/logo_name"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="FACE RECOGNITION BASED ATTENDANCE SYSTEM "
-       android:textColor="#878282"
+       android:text="@string/face_recognition_based_attendance_system"
+       android:textColor="#423E3E"
        android:textSize="16sp"
        android:textStyle="bold"
        app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toTopOf="parent"
        app:layout_constraintVertical_bias="0.008"
-       app:srcCompat="@drawable/virtual_face" />
+       app:srcCompat="@drawable/scan" />
 
    <ProgressBar
        android:id="@+id/progressBar"

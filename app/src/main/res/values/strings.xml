@@ -23,4 +23,5 @@
     <string name="_64">64</string>
     <string name="students_present">0</string>
     <string name="students_Present">Students Present :</string>
+    <string name="face_recognition_based_attendance_system">FACE RECOGNITION BASED ATTENDANCE SYSTEM</string>
 </resources>

@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.027"
-        app:srcCompat="@drawable/virtual_face" />
+        app:srcCompat="@drawable/scan" />
 
     <TextView
         android:id="@+id/supg"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="@string/please_enter_your_credentials_to_sign_up_your_account"
-        android:textColor="#D0EDE5E5"
+        android:textColor="#D03C3B3B"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
         android:gravity="center_horizontal"
         android:hint="@string/user_name"
         android:inputType="textPersonName|textEmailAddress"
-        android:textColorHint="#B0E3D7D7"
+        android:textColorHint="#B0131313"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,7 +60,7 @@
         android:gravity="center_horizontal"
         android:hint="@string/passwors"
         android:inputType="textPassword"
-        android:textColorHint="#C3D8C6C6"
+        android:textColorHint="#C3121111"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,7 +91,7 @@
         android:gravity="center_horizontal"
         android:hint="@string/confirm_password"
         android:inputType="textPassword"
-        android:textColorHint="#C3D3C7C7"
+        android:textColorHint="#C30E0E0E"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/subtn"
         app:layout_constraintEnd_toEndOf="parent"
@@ -120,7 +120,7 @@
         android:gravity="center"
         android:hint="@string/mail"
         android:inputType="textEmailAddress"
-        android:textColorHint="#A19C9C"
+        android:textColorHint="#101010"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
