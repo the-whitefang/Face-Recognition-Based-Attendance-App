@@ -5,6 +5,8 @@
     tools:showIn="navigation_view"
     >
 
+    <group android:checkableBehavior="single">
+
     <item
         android:id="@+id/attendancerecord"
         android:icon="@drawable/baseline_playlist_add_check_24"
@@ -29,23 +31,35 @@
         android:title="Settings"
         />
 
+    </group>
+
+
+
     <item android:title="Profile">
 
         <menu>
-
+            <group android:checkableBehavior="single">
             <item
                 android:id="@+id/Login"
                 android:icon="@drawable/baseline_login_24"
                 android:title="Login"
                 />
 
+            </group>
+
+
         </menu>
 
     </item>
 
+
+
+
     <item android:title="Info">
 
         <menu>
+
+            <group android:checkableBehavior="single">
 
             <item
                 android:id="@+id/about"
@@ -58,6 +72,8 @@
                 android:icon="@drawable/baseline_help_24"
                 android:title="Help"
                 />
+
+            </group>
 
         </menu>
 
