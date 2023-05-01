@@ -12,7 +12,7 @@
         android:layout_height="match_parent"
         android:id="@+id/Drawerlayout"
         tools:context=".Dashboard.ActivityMainDashboard"
-        android:background="@drawable/gradient_background">
+        >
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -21,29 +21,40 @@
 
             <ImageView
                 android:id="@+id/dash_image"
-                android:layout_width="160dp"
-                android:layout_height="175dp"
+                android:layout_width="122dp"
+                android:layout_height="110dp"
                 android:src="@drawable/scanner_image"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.228" />
+                app:layout_constraintVertical_bias="0.069" />
 
             <Button
                 android:id="@+id/btn_scan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_orange_light"
                 android:text="@string/scan"
                 android:textSize="24sp"
                 android:textStyle="bold|italic"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.527"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.754" />
+                app:layout_constraintVertical_bias="0.855" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.498" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

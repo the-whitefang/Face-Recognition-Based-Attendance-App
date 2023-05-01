@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login_Signup.ActivitySignup"
-    android:background="@drawable/gradient_background">
+    >
 
     <ImageView
         android:id="@+id/supgimg"
@@ -74,6 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
+        android:backgroundTint="@android:color/holo_orange_light"
         android:text="@string/sign_up_btn"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -120,7 +121,7 @@
         android:gravity="center"
         android:hint="@string/mail"
         android:inputType="textEmailAddress"
-        android:textColorHint="#101010"
+        android:textColorHint="#494545"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"

@@ -1,4 +1,4 @@
-package com.example.face_recognition_based_attendance_app
+package com.example.face_recognition_based_attendance_app.Welcome
 
 
 import android.content.Intent
@@ -7,6 +7,7 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.face_recognition_based_attendance_app.Login_Signup.ActivityLogin
 import com.example.face_recognition_based_attendance_app.Login_Signup.ActivitySignup
+import com.example.face_recognition_based_attendance_app.R
 
 
 class MainActivity : AppCompatActivity() {

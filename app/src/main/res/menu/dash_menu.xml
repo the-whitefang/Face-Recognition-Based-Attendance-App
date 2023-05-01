@@ -6,9 +6,15 @@
     >
 
     <item
-        android:id="@+id/home"
-        android:icon="@drawable/baseline_home_24"
-        android:title="Home"
+        android:id="@+id/attendancerecord"
+        android:icon="@drawable/baseline_playlist_add_check_24"
+        android:title="Attendance Record"
+        />
+
+    <item
+        android:id="@+id/addface"
+        android:icon="@drawable/baseline_document_scanner_24"
+        android:title="Add Face"
         />
 
     <item
